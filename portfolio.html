@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="mb-5" id="navbar">       
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#Accueil">Portfolio</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#containerAPropos">A propos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Projet">Projet</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Travaux">Projet scolaire</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Veille">Veille</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Compétence">Grille de compétence</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="justify-content-end">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" target="_blank" href="https://github.com/JulD05"><i class="text-dark h3 bi bi-github"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" target="_blank" href="https://www.linkedin.com/in/jules-demai-30920a1a6/"><i class="text-dark h3 bi bi-linkedin"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!----------- Accueil ---------->
+    <div class="container mt-5">
+        <div class="d-flex flex-wrap justify-content-center">
+            <div class="mt-5 col-8">
+                    <h1 class="mt-5">Bonjour.</h1>
+                    <hr class="border border-primary border-2 opacity-50" id="traitBonjour">
+                    <h1>Bienvenue sur le portfolio de Jules</h1>
+                    <h4>Etudiant en BTS Sio au Greta de Saint-Brieuc</h4>
+                    <hr class="border border-primary border-2 opacity-50" id="traitBienvenue">
+                    <h5>Vous pourrez en apprendre davantage me concernant sur ce portfolio ainsi que découvrir</h5>
+                    <h5>mes différents travaux réalisé au cours de mon année scolaire</h5>
+            </div>
+            <div class="col-4 mt-5 justify-content-end">
+                <a href="#"><img src="image/coding.png" alt="imgCoding" height="550"></a>
+            </div>
+        </div>
+    </div>
+
+    <!----------- A propos de moi ---------->
+    <div id="containerAPropos">
+        <br>
+        <div class="container mt-5">
+            <h2>A propos de moi <svg xmlns="http://www.w3.org/2000/svg" width="45" height="32" fill="currentColor" class="bi bi-chat-left-text" viewBox="0 0 16 16">
+                <path d="M14 1a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H4.414A2 2 0 0 0 3 11.586l-2 2V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v12.793a.5.5 0 0 0 .854.353l2.853-2.853A1 1 0 0 1 4.414 12H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
+                <path d="M3 3.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zM3 6a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9A.5.5 0 0 1 3 6zm0 2.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5z"/>
+            </svg></h2>
+            <hr class="border border-danger border-2 opacity-50" id="traitApropos">
+            
+            <div class="container mt-5">
+                <div class="d-flex flex-wrap justify-content-center">
+                    <div class="col-6">
+                        <a href="#"><img src="image/coding.png" alt="imgCoding" height="250"></a>
+                    </div>
+                    <div class="col-6">
+                        <div class="">
+                            <h3>Présentation <svg xmlns="http://www.w3.org/2000/svg" width="20" height="35" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+                                <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4Zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10Z"/>
+                            </svg></h3>
+                            <br>
+                            <p>Moi, c'est Jules</p>
+                            
+                            <p>Diplômé d'un BTS NDRC dans lequel j'ai pu m'initier à la création de site internet avec WordPress, j'ai choisi de me réorienter dans un BTS Service informatique aux organisations. Passionné par l'informatique, la technologie et tout ce qui entour ces domaines depuis mon adolescence, la poursuite dans le domaine de l'informatique était une évidence.</p>
+                            
+                            <p>Passionné par l'informatique, la technologie et tout ce qui entour ces domaines depuis mon adolescence, la poursuite dans le domaine de l'informatique était une évidence.</p>
+                            
+                            <p>Je suis donc actuellement étudiant en BTS Sio option SLAM au Greta de Saint-Brieuc. Il s'agit, plus grossièrement, d'une formation visant à devenir développeur. </p>
+                            
+                            <p>Voici pour commencer mon CV. Vous retrouvez par la suite davantage d'informations me concernant dans ce portefolio</p>
+
+                            <div class="text-center">
+                                <a href="CV.pdf" target="_blank" class="btn">
+                                    <h5>Mon CV
+                                        <i class="bi bi-file-earmark-person-fill"></i>
+                                    </h5>
+                                </a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+    </div>
+
+    <!----------- Mes compétences ---------->
+    <div class="container mt-5">
+        <h2>Mes compétences</h2>
+        <hr class="border border-danger border-2 opacity-50" id="traitCompetence">
+        <p class="text-center mt-5">Durant ma formation en BTS Sio, j'ai pu acquérir divers compétences en développement. </p>
+        <div class="container mt-3">
+            <div class="d-flex flex-wrap justify-content-center">
+                <main class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 m-3" id="sizeCard">
+                    <div class="cadre">
+                        <div class="card text-center border-warning text-warning h6" id="bgCard">
+                            <a class="mt-3" href=""><img src="image/html.png" alt="" id="zoomLogo" height="75"></a>
+                            <div class="card-footer mt-3">HTML</div>
+                        </div>
+                    </div>
+                    <div class="cadre">
+                        <div class="card text-center border-warning text-warning h6" id="bgCard">
+                            <a class="mt-3" href=""><img src="image/css.png" alt="" id="zoomLogo" height="75"></a>
+                            <div class="card-footer mt-3">CSS</div>
+                        </div>
+                    </div>
+                    <div class="cadre">
+                        <div class="card text-center border-warning text-warning h6" id="bgCard">
+                            <a class="mt-3" href=""><img src="image/javascript.png" alt="" id="zoomLogo" height="75"></a>
+                            <div class="card-footer mt-3">JAVASCRIPT</div>
+                        </div>
+                    </div>
+                    <div class="cadre">
+                        <div class="card text-center border-warning text-warning h6" id="bgCard">
+                            <a class="mt-3" href=""><img src="image/php.png" alt="" id="zoomLogo" height="75"></a>
+                            <div class="card-footer mt-3">PHP</div>
+                        </div>
+                    </div>
+                    <div class="cadre mt-3">
+                        <div class="card text-center border-warning text-warning h6" id="bgCard">
+                            <a class="mt-3" href=""><img src="image/Csharp.png" alt="" id="zoomLogo" height="75"></a>
+                            <div class="card-footer mt-3">C#</div>
+                        </div>
+                    </div>
+                    <div class="cadre mt-3">
+                        <div class="card text-center border-warning text-warning h6" id="bgCard">
+                            <a class="mt-3" href=""><img src="image/python.png" alt="" id="zoomLogo" height="75"></a>
+                            <div class="card-footer mt-3">PYTHON</div>
+                        </div>
+                    </div>
+                    <div class="cadre mt-3">
+                        <div class="card text-center border-warning text-warning h6" id="bgCard">
+                            <a class="mt-3" href=""><img src="image/mysql.png" alt="" id="zoomLogo" height="75"></a>
+                            <div class="card-footer mt-3">MYSQL</div>
+                        </div>
+                    </div>
+                    <div class="cadre mt-3">
+                        <div class="card text-center border-warning text-warning h6" id="bgCard">
+                            <a class="mt-3" href=""><img src="image/postgreSQL.png" alt="" id="zoomLogo" height="75"></a>
+                            <div class="card-footer mt-3">POSTGRESQL</div>
+                        </div>
+                    </div>
+                </main>
+            </div>
+        </div>
+    </div>
+    <br>
+
+    <!----------- Mes outils ---------->
+    <div id="containerOutils">
+        <br>
+        <div class="container mt-5">
+            <h2>Mes outils / logiciels <i class="bi bi-gear"></i></h2>
+            <hr class="border border-danger border-2 opacity-50" id="traitOutil">
+            <p class="text-center mt-5">J'ai aussi découvert différents outils très util dans l'environnement d'un développeur.</p>
+            <div class="container mt-3">
+                <div class="d-flex flex-wrap justify-content-center">
+                    <main class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 m-3" id="sizeCard">
+                        <div class="cadre">
+                            <div class="card text-center border-warning text-warning h6" id="bgCard">
+                                <a class="mt-3" href=""><img src="image/VisualStudioCode.png" alt="" id="zoomLogo" height="75"></a>
+                                <div class="card-footer mt-3">VISUAL STUDIO CODE</div>
+                            </div>
+                        </div>
+                        <div class="cadre">
+                            <div class="card text-center border-warning text-warning h6" id="bgCard">
+                                <a class="mt-3" href=""><img src="image/VisualStudio.png" alt="" id="zoomLogo" height="75"></a>
+                                <div class="card-footer mt-3">VISUAL STUDIO</div>
+                            </div>
+                        </div>
+                        <div class="cadre">
+                            <div class="card text-center border-warning text-warning h6" id="bgCard">
+                                <a class="mt-3" href=""><img src="image/WampServer.png" alt="" id="zoomLogo" height="75"></a>
+                                <div class="card-footer mt-3">WAMP</div>
+                            </div>
+                        </div>
+                        <div class="cadre">
+                            <div class="card text-center border-warning text-warning h6" id="bgCard">
+                                <a class="mt-3" href=""><img src="image/xamp.png" alt="" id="zoomLogo" height="75"></a>
+                                <div class="card-footer mt-3">XAMP</div>
+                            </div>
+                        </div>
+                        <div class="cadre mt-3">
+                            <div class="card text-center border-warning text-warning h6" id="bgCard">
+                                <a class="mt-3" href=""><img src="image/codeigniter4.png" alt="" id="zoomLogo" height="75"></a>
+                                <div class="card-footer mt-3">CODE IGNITER 4</div>
+                            </div>
+                        </div>
+                        <div class="cadre mt-3">
+                            <div class="card text-center border-warning text-warning h6" id="bgCard">
+                                <a class="mt-3" href=""><img src="image/github.png" alt="" id="zoomLogo" height="75"></a>
+                                <div class="card-footer mt-3">GITHUB</div>
+                            </div>
+                        </div>
+                        <div class="cadre mt-3">
+                            <div class="card text-center border-warning text-warning h6" id="bgCard">
+                                <a class="mt-3" href=""><img src="image/owaspzap.png" alt="" id="zoomLogo" height="75"></a>
+                                <div class="card-footer mt-3">OWASP ZAP</div>
+                            </div>
+                        </div>
+                        <div class="cadre mt-3">
+                            <div class="card text-center border-warning text-warning h6" id="bgCard">
+                                <a class="mt-3" href=""><img src="image/wiresharklogo.png" alt="" id="zoomLogo" height="75"></a>
+                                <div class="card-footer mt-3">WIRESHARK</div>
+                            </div>
+                        </div>
+                    </main>
+                </div>
+            </div>
+        </div>
+        <br>
+    </div>
+
+    <!----------- Mes projets scolaire ---------->
+    <div class="container mt-5" id="Travaux">
+        <h2>Mes projets <i class="bi bi-folder2"></i></h2>
+        <hr class="border border-danger border-2 opacity-50" id="traitProjets">
+        <p class="text-center mt-5">Ci-dessous, les différents projets que j'ai réalisé en formation ainsi que durant mon stage.</p>
+
+        <div class="container">
+            <div class="d-flex flex-wrap justify-content-center">
+                <div class="col-3 m-3">
+                    <h4 class="text-center">ChopesGames</h4>
+                    <div class="text-center" id="container">
+                        <img src="image/chopesgames.png" alt="chopesgames" height="200" id="imageProjet">
+                        <div id="Liens">
+                            <a href="" title="Documents annexe" id="annexesProjet"><i class="bi bi-file-earmark-plus" id="lienProjet"></i></a>
+                            <a href="/ChopesGamesGRETA/public/" title="Lien" id="lienProjet"><i class="bi bi-link-45deg"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3 m-3">
+                    <h4 class="text-center">CanStore</h4>
+                    <div class="text-center" id="container">
+                        <img src="image/canstore.png" alt="CanStore" height="200" id="imageProjet">
+                        <div id="Liens">
+                            <a href="" title="Documents annexe" id="annexesProjet"><i class="bi bi-file-earmark-plus" id="lienProjet"></i></a>
+                            <a href="/ChopesGamesGRETA/public/" title="Lien" id="lienProjet"><i class="bi bi-link-45deg"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3 m-3">
+                    <h4 class="text-center">Hamynä</h4>
+                    <div class="text-center" id="container">
+                        <img src="image/Hamyna.png" alt="Hamyna" height="200" id="imageProjet">
+                        <div id="Liens">
+                            <a href="" title="Documents annexe" id="annexesProjet"><i class="bi bi-file-earmark-plus" id="lienProjet"></i></a>
+                            <a href="https://hamyna.fr/" title="Lien" id="lienProjet"><i class="bi bi-link-45deg"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!----------- Veille technologique ---------->
+
+
+
+
+
+
+
+
+    <!----------- Grille de compétence ---------->
+
+</body>
+    
+</html>
